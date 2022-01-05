@@ -7,9 +7,9 @@ def calculate():
     global label
 
     result = 0
-    number1 = Decimal(stack.pop())
-    operation = stack.pop()
     number2 = Decimal(stack.pop())
+    operation = stack.pop()
+    number1 = Decimal(stack.pop())
 
     if operation == '+':
         result = number1 + number2
