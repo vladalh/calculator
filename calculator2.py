@@ -82,8 +82,7 @@ class buttonEvent:
                 operation = None
             else:
                 operation = self.buttonEvent
-        print(operation)
-        print(result)
+       
         activeStr.set(str(result))
         stack.clear()
 
